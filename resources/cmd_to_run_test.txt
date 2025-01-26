@@ -1,0 +1,4 @@
+below are the set of cmd to execute tests:
+1.pytest -s -v -n=3  testCases/test_search.py::TestAmazonSearchBar::test_search_suggestions
+2.pytest -s -v -n=3  testCases
+3.pytest -s -v -n=3 -m=sahil testCases/test_search.py::TestAmazonSearchBar::test_search_suggestions
